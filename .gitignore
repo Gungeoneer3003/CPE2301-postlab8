@@ -1,0 +1,21 @@
+# Vivado-generated caches, run outputs, and simulation data
+/postlab3.cache/
+/postlab3.hw/
+/postlab3.ip_user_files/
+/postlab3.runs/
+/postlab3.sim/
+
+# Vivado temporary files and logs
+/.Xil/
+**/.Xil/
+*.jou
+*.log
+*.pb
+*.str
+*.wdb
+
+# Editor and operating-system files
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
