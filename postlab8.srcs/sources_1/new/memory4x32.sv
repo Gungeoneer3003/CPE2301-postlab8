@@ -20,7 +20,40 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module memory4x32(
+// Stores four 32-bit words as sixteen individually addressable bytes
+module memory4x32 (
+       input  logic       clk,
+       input  logic       reset,
+       input  logic       writeEnabled,
+       input  logic       readEnabled,
+       input  logic [3:0] byteAddress,
+       input  logic [7:0] data_in,
 
-    );
+       output logic [7:0] data_out
+   );
+   
+   logic [31:0] memory [3:0];
+   logic [1:0] wordIndex;
+   logic [1:0] byteIndex;
+   
+   assign wordIndex = byteAddress[3:2];
+   assign byteIndex = byteAddress[1:0];
+   
+   always_ff @(posedge clk) begin
+    if(reset) begin
+        for(int i = 0; i < 4; i++)
+            memory[i] <= '0;
+        
+        data_out <= '0;
+        
+    end
+    else begin
+        if (writeEnabled) 
+            memory[wordIndex][8 * byteIndex +: 8] <= data_in;
+        
+        if (readEnabled)
+             data_out <= memory[wordIndex][8 * byteIndex +: 8];
+    end 
+   end
+           
 endmodule

@@ -1,0 +1,10 @@
+0.7
+2020.2
+Jun 16 2026
+11:10:11
+C:/Users/chris/Documents/GitHub/CPE-2301/CPE2301-postlab8/postlab8.sim/sim_1/behav/xsim/glbl.v,1773749341,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/chris/Documents/GitHub/CPE-2301/CPE2301-postlab8/postlab8.srcs/sim_1/new/byteAddress_tb.sv,1794270167,systemVerilog,,,,byteAddress_tb,,uvm,../../../../../../../../../../AMDDesignTools/2026.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/chris/Documents/GitHub/CPE-2301/CPE2301-postlab8/postlab8.srcs/sources_1/new/byteAddress.sv,1794269032,systemVerilog,,,,byteAddress,,uvm,../../../../../../../../../../AMDDesignTools/2026.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/chris/Documents/GitHub/CPE-2301/CPE2301-postlab8/postlab8.srcs/sources_1/new/display_controller.sv,1794265413,systemVerilog,,C:/Users/chris/Documents/GitHub/CPE-2301/CPE2301-postlab8/postlab8.srcs/sources_1/new/hex_decoder.sv,,display_controller,,uvm,../../../../../../../../../../AMDDesignTools/2026.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/chris/Documents/GitHub/CPE-2301/CPE2301-postlab8/postlab8.srcs/sources_1/new/hex_decoder.sv,1794265472,systemVerilog,,C:/Users/chris/Documents/GitHub/CPE-2301/CPE2301-postlab8/postlab8.srcs/sources_1/new/memory4x32.sv,,hex_decoder,,uvm,../../../../../../../../../../AMDDesignTools/2026.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/chris/Documents/GitHub/CPE-2301/CPE2301-postlab8/postlab8.srcs/sources_1/new/memory4x32.sv,1794267997,systemVerilog,,C:/Users/chris/Documents/GitHub/CPE-2301/CPE2301-postlab8/postlab8.srcs/sim_1/new/byteAddress_tb.sv,,memory4x32,,uvm,../../../../../../../../../../AMDDesignTools/2026.1/Vivado/data/rsb/busdef,,,,,
